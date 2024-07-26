@@ -1,0 +1,17 @@
+
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: 'Arial', sans-serif;
+}
+
+@media (max-width: 600px) {
+  .header h1 {
+      font-size: 1.5em;
+  }
+
+  .main-content p {
+      font-size: 1em;
+  }
+}

@@ -1,0 +1,44 @@
+
+.main-content {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #f4f4f4;
+    min-height: calc(100vh - 80px); 
+}
+
+.main-content p {
+    font-size: 1.2em;
+    color: #666;
+}
+
+.retreats-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; /* Add space between items */
+    padding: 20px;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.pagination button {
+    padding: 10px 20px;
+    margin: 0 5px;
+    border: none;
+    background-color: #004080;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.pagination button.active {
+    background-color: #0056b3;
+}
+
+.pagination button:hover {
+    background-color: #003366;
+}
